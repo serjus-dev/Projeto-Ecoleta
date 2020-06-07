@@ -25,6 +25,9 @@ server.get("/create-point", (req,res) => {
     return res.render("create-point.html")
 })
 
+server.get("/search", (req,res) => {
+    return res.render("search-results.html")
+})
 
 // LIGAR O SERVIDOR
 server.listen(3000)
